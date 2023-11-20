@@ -1,0 +1,13 @@
+@import 'src/styles.scss';
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap : 2em;
+}
+
+.user-cluster{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0.125em;
+}
