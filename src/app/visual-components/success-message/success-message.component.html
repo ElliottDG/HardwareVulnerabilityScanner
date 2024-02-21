@@ -1,0 +1,16 @@
+<div class="snack">
+  <span matSnackBarLabel>
+    <strong>Success!</strong>
+    <span *ngFor="let item of data"> <br />{{ item }} </span>
+  </span>
+  <span class="snack-design" matSnackBarActions>
+    <button
+      color="green"
+      mat-icon-button
+      matSnackBarAction
+      (click)="snackBarRef.dismissWithAction()"
+    >
+      <mat-icon color="green">close</mat-icon>
+    </button>
+  </span>
+</div>
